@@ -1,15 +1,17 @@
 # SSH-Brute
 A tool to BruteForce ssh. An upgraded version of Hydra. Multiple bruteforce options
+![Screenshot at 2022-07-09 21-02-12](https://user-images.githubusercontent.com/93708296/178113906-b52ef2c9-5a1e-487c-8265-2485e0754ad8.png)
 
                
                
  # Requirements: 
  ~ Linux:
- * 1. sudo apt install python3
- * 2. sudo apt install pip
- * 3. sudo pip install paramiko
- * 4. sudo pip install colorama
- * 5. python3 brute.py
+ *  sudo apt install python3
+ *  sudo apt install pip
+ *  sudo pip install paramiko
+ *  sudo pip install colorama
+ *  git clone https://github.com/Cyber-Dioxide/SSH-Brute/
+ *  python3 brute.py
  
  # Usage:
  
@@ -20,6 +22,14 @@ A tool to BruteForce ssh. An upgraded version of Hydra. Multiple bruteforce opti
  * Example: python3 brute.py 10 /usr/shared/wordlist/rockyou.txt
  
  range_of_ip is teh range for creating random hosts with "root" as username. like root@randomHost 
+ 
+ # Screenshots
+ 
+ 
+ ![Screenshot at 2022-07-09 21-12-34](https://user-images.githubusercontent.com/93708296/178113939-8707e2a3-1474-4d1c-b8d1-f645fad7b5e4.png)
+![Screenshot at 2022-07-09 21-03-28](https://user-images.githubusercontent.com/93708296/178113944-552c30ac-baf2-4235-86b0-9dd3222afb2a.png)
+![Screenshot at 2022-07-09 21-08-02](https://user-images.githubusercontent.com/93708296/178113947-4bbd7e5b-58d0-4eed-ba1a-827e9c26b640.png)
+
  
  # Support:
  For any hel support | help, iam mostly active on instagram @cyber_dioxide , @coding_memz
