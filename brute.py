@@ -108,10 +108,7 @@ if __name__ == '__main__':
                 wordlist = "wordlist.txt"
             else:
                 wordlist = sys.argv[3]
-            try:
-                random_ssh(user=user_name, ip_range=int(ip_range))
-            except KeyboardInterrupt:
-                clean(f"Successfully Exited! {W}+_+" , f"{R}!")
+            random_ssh(user=user_name, ip_range=int(ip_range))
 
 
         else:
@@ -120,10 +117,9 @@ if __name__ == '__main__':
                 wordlist = "wordlist.txt"
             else:
                 wordlist = sys.argv[2]
-            try:
-                user_defined(user_name)
-            except KeyboardInterrupt:
-                clean(f"Successfully Exited! {W}+_+" , f"{R}!")
+            
+            user_defined(user_name)
+            
 
 
 
