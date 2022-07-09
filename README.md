@@ -16,7 +16,7 @@ A tool to BruteForce ssh. An upgraded version of Hydra. Multiple bruteforce opti
  # Usage:
  
  *  python3 brute.py <username> <wordlist>
- * -> Example: python3 brute.py roat@example.com /usr/shared/wordlist/rockyou.txt
+ * -> Example: python3 brute.py roat@example.com /usr/share/wordlist/rockyou.txt
  * [+] For Random Brute
  * python3 brute.py <range_of_ip> <wordlist>
  * Example: python3 brute.py 10 /usr/shared/wordlist/rockyou.txt
